@@ -183,6 +183,7 @@ body {
   display: grid;
   place-items: center;  
   margin-top: 40px; /* Add this line - adjust the value as needed */
+  padding-top: 40px; /* Instead of margin-top */
 
 }
 
