@@ -303,6 +303,50 @@ body {
 
 
 
+
+.assistant-title {
+    text-align: center;
+    margin: 0.5rem 0;
+    position: relative;
+    z-index: 100;
+  }
+}
+
+
+.assistant-title h1 {
+    text-align: center;
+  font-size: 3.5vw;
+  color: #e7e7fb;
+  margin: 0;
+  text-shadow: 0 0 1.5vmin rgba(109,103,200,0.8);
+  letter-spacing: 0.1em;
+  font-weight: 600;
+}
+  
+  .subtitle {
+      font-size: 1.5vw;
+  color: #b6a9f8;
+  margin: 0.5rem 0 0;
+  opacity: 0.9;
+  font-weight: 300;
+    margin: 5px 0 0; /* Reduced top margin */
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* For mobile responsiveness */
 @media (max-width: 768px) {
   .assistant-title {
