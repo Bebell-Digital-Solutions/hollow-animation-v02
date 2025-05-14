@@ -303,6 +303,9 @@ body {
 
 
 
+
+
+
 /* Mobile responsiveness */
 @media (max-width: 768px) {
   .assistant-title {
@@ -312,13 +315,24 @@ body {
     z-index: 100;
   }
   
-  .assistant-title h1 {
-    font-size: 8vw;
-    margin: 0; /* Ensure no extra margin */
-  }
+.assistant-title h1 {
+    text-align: center;
+  font-size: 3.5vw;
+  color: #e7e7fb;
+  margin: 0;
+  text-shadow: 0 0 1.5vmin rgba(109,103,200,0.8);
+  letter-spacing: 0.1em;
+  font-weight: 600;
+  margin: 0; /* Ensure no extra margin */
+
+}
   
   .subtitle {
-    font-size: 4vw;
+      font-size: 1.5vw;
+  color: #b6a9f8;
+  margin: 0.5rem 0 0;
+  opacity: 0.9;
+  font-weight: 300;
     margin: 5px 0 0; /* Reduced top margin */
   }
   
@@ -326,6 +340,7 @@ body {
     margin-top: 10px; /* Combined with title's 10px bottom = 20px total */
     transform: scale(1.2);
   }
+  
   
   body {
     gap: 0; /* Remove default grid gap */
