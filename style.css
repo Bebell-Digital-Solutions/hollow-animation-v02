@@ -307,7 +307,7 @@ body {
 /* [Keep all previous CSS rules from original visualization] */
 
 
-
+<style>
 
 
 /* For mobile responsiveness */
@@ -317,8 +317,9 @@ body {
   margin: 0.5rem 0;
   position: relative;
   z-index: 100;
+  font-size: 8vw;
 }
-}
+
 
 .assistant-title h1 {
   text-align: center;
@@ -338,13 +339,4 @@ body {
   font-weight: 300;
 }
 
-/* Mobile responsiveness */
-@media (max-width: 768px) {
-  .assistant-title h1 {
-    font-size: 8vw;
-  }
-  
-  .subtitle {
-    font-size: 4vw;
-  }
 }
