@@ -339,4 +339,16 @@ body {
   font-weight: 300;
 }
 
+
+    .ai {
+    margin-top: 50px; /* This will give you exactly 20px total space (10+10) */
+    transform: scale(1.2); /* Optional: Slightly reduce scale on mobile */
+  }
+  
+  body {
+    /* Optional: You might want to adjust the body grid spacing */
+    gap: 10px;
+    padding-top: 10px;
+  }
+
 }
