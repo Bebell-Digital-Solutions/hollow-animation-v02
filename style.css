@@ -303,52 +303,32 @@ body {
 
 
 
-/* CSS */
-/* [Keep all previous CSS rules from original visualization] */
-
-
-<style>
-
-
-/* For mobile responsiveness */
+/* Mobile responsiveness */
 @media (max-width: 768px) {
-.assistant-title {
-  text-align: center;
-  margin: 0.5rem 0;
-  position: relative;
-  z-index: 100;
-  font-size: 8vw;
-}
-}
-
-.assistant-title h1 {
-  text-align: center;
-  font-size: 3.5vw;
-  color: #e7e7fb;
-  margin: 0;
-  text-shadow: 0 0 1.5vmin rgba(109,103,200,0.8);
-  letter-spacing: 0.1em;
-  font-weight: 600;
-}
-
-.subtitle {
-  font-size: 1.5vw;
-  color: #b6a9f8;
-  margin: 0.5rem 0 0;
-  opacity: 0.9;
-  font-weight: 300;
-}
-
-
-    .ai {
-    margin-top: 50px; /* This will give you exactly 20px total space (10+10) */
-    transform: scale(1.2); /* Optional: Slightly reduce scale on mobile */
+  .assistant-title {
+    text-align: center;
+    margin: 0 0 10px 0; /* Top:0, Bottom:10px */
+    position: relative;
+    z-index: 100;
+  }
+  
+  .assistant-title h1 {
+    font-size: 8vw;
+    margin: 0; /* Ensure no extra margin */
+  }
+  
+  .subtitle {
+    font-size: 4vw;
+    margin: 5px 0 0; /* Reduced top margin */
+  }
+  
+  .ai {
+    margin-top: 10px; /* Combined with title's 10px bottom = 20px total */
+    transform: scale(1.2);
   }
   
   body {
-    /* Optional: You might want to adjust the body grid spacing */
-    gap: 10px;
+    gap: 0; /* Remove default grid gap */
     padding-top: 10px;
   }
-
-
+}
