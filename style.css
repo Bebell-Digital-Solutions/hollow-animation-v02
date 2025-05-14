@@ -312,15 +312,16 @@ body {
 
 /* For mobile responsiveness */
 @media (max-width: 768px) {
-
 .assistant-title {
   text-align: center;
   margin: 0.5rem 0;
   position: relative;
   z-index: 100;
 }
+}
 
 .assistant-title h1 {
+  text-align: center;
   font-size: 3.5vw;
   color: #e7e7fb;
   margin: 0;
