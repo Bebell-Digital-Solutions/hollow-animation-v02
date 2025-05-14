@@ -33,7 +33,7 @@
   aspect-ratio: 1;
   --bg-color: color-mix(in srgb, #7b7bf4, transparent 90%);
   background: radial-gradient(
-      60% 75% at center,
+      30% 55% at center,
       var(--bg-color) 50%,
       transparent 50%
     ),
@@ -44,6 +44,7 @@
   position: relative;
   border-radius: 50%;
   transform: scale(1.4);
+  margin-top: 40px; /* Add this */
 }
 
 $count: 4;
