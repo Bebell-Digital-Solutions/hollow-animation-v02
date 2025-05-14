@@ -138,6 +138,7 @@ $count: 4;
   position: relative;
   display: grid;
   place-items: center;
+  
 }
 
 .glass {
@@ -179,7 +180,9 @@ body {
   background: radial-gradient(circle at center, rgba(0,0,0,.5), transparent 50%), #221f28;
   height: 100dvh;
   display: grid;
-  place-items: center;
+  place-items: center;  
+  margin-top: 40px; /* Add this line - adjust the value as needed */
+
 }
 
 * {
