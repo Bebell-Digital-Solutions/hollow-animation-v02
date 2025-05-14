@@ -44,7 +44,14 @@
   position: relative;
   border-radius: 50%;
   transform: scale(1.4);
+  margin-top: 50px;
+
 }
+
+
+
+
+
 
 $count: 4;
 :root {
@@ -141,6 +148,8 @@ $count: 4;
   
 }
 
+
+
 .glass {
   overflow: hidden;
   position: absolute;
@@ -183,8 +192,6 @@ body {
   height: 100dvh;
   display: grid;
   place-items: center;  
-  padding-top: 40px; /* Instead of margin-top */
-
 }
 
 
@@ -314,21 +321,10 @@ body {
   backdrop-filter: blur(5px);
 }
 
-<style>
-/* Add this CSS */
-.newoaks-chat-container * {
-  font-family: 'Poppins', sans-serif !important;
-  font-weight: 700 !important;
-  letter-spacing: -0.03em !important;
-}
+
 
 /* For mobile responsiveness */
 @media (max-width: 768px) {
-  .newoaks-chat-container * {
-    font-size: 16px !important;
-  }
-}
-
 
 .assistant-title {
   text-align: center;
@@ -363,28 +359,4 @@ body {
   .subtitle {
     font-size: 4vw;
   }
-}
-
-
-
-/* Add this to your existing CSS */
-
-#voiceButton {
-  position: fixed;
-  bottom: 30px;
-  left: 50%;
-  transform: translateX(-50%);
-  padding: 15px 30px;
-  background: #6d67c8;
-  color: white;
-  border: none;
-  border-radius: 30px;
-  cursor: pointer;
-  z-index: 1000;
-  box-shadow: 0 4px 20px rgba(109,103,200,0.4);
-  transition: transform 0.2s;
-}
-
-#voiceButton:active {
-  transform: scale(0.95) translateX(-50%);
 }
