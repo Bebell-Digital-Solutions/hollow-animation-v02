@@ -303,18 +303,17 @@ body {
 
 
 
-
-
-
-/* Mobile responsiveness */
+/* For mobile responsiveness */
 @media (max-width: 768px) {
   .assistant-title {
     text-align: center;
-    margin: 0 0 10px 0; /* Top:0, Bottom:10px */
+    margin: 0.5rem 0;
     position: relative;
     z-index: 100;
   }
-  
+}
+
+
 .assistant-title h1 {
     text-align: center;
   font-size: 3.5vw;
@@ -323,8 +322,6 @@ body {
   text-shadow: 0 0 1.5vmin rgba(109,103,200,0.8);
   letter-spacing: 0.1em;
   font-weight: 600;
-  margin: 0; /* Ensure no extra margin */
-
 }
   
   .subtitle {
@@ -347,4 +344,4 @@ body {
     padding-top: 10px;
   }
   
-}
+
