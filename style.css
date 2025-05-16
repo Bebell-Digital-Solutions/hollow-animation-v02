@@ -187,7 +187,7 @@ $count: 4;
 
 
 body {
-  background: radial-gradient(circle at center, rgba(0,0,0,.5), transparent 50%), #221f28;
+  background: #221f28;
   height: 100dvh;
   display: grid;
   place-items: center;  
