@@ -217,7 +217,7 @@ body {
 }
 
 :root {
-	--title: "VibeCoding Studio Website";
+	--title: "Hollow Animation Effect";
 	--autor: "Bebell Digital Solutions";
 	--contact: "info@bebelldigitalsolutions.com";
 	--description: "";
@@ -227,8 +227,6 @@ body {
 	--generator: "HTML5, CSS3, JavaScript, Three.js, requestAnimationFrames,";
   --width: 1vmin;
   --duration: 8s;
-}
-
 }
 
 .rings {
