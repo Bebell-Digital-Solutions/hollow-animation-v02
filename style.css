@@ -217,8 +217,18 @@ body {
 }
 
 :root {
+	--title: "VibeCoding Studio Website";
+	--autor: "Bebell Digital Solutions";
+	--contact: "info@bebelldigitalsolutions.com";
+	--description: "";
+	--keywords: "";
+	--last-modified: "2025-06-01";
+	--content-language: "en";
+	--generator: "HTML5, CSS3, JavaScript, Three.js, requestAnimationFrames,";
   --width: 1vmin;
   --duration: 8s;
+}
+
 }
 
 .rings {
